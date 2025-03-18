@@ -15,6 +15,8 @@ let visualAmigos = document.getElementById("listaAmigos");
 function agregarAmigo(){
     amigos.push(nombreAmigo.value);
 
+
     //Agregamos los nombres de las personas al ser añadidas
-    visualAmigos.innerHTML += `<l1> ${nombreAmigo.value} </l1>`;
+    visualAmigos.innerHTML += `<li> ${nombreAmigo.value} </li>`;
 };
+
